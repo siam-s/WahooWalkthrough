@@ -1,5 +1,5 @@
 
-function Restaurant(rName, rDescription, rAddress, rPhone, price) {
+export function Restaurant(rName, rDescription, rAddress, rPhone, price) {
     this.rName = rName;
     this.rDescription = rDescription;
     this.rAddress = rAddress;
@@ -7,7 +7,7 @@ function Restaurant(rName, rDescription, rAddress, rPhone, price) {
     this.price = price;
 }
 
-var nal_carbon = new Restaurant("Al Carbon Chicken", "Tacos, tamales and sandwiches with rotisserie chicken", "1871 Seminole Trail", "964-1052",  "$"),
+var al_carbon = new Restaurant("Al Carbon Chicken", "Tacos, tamales and sandwiches with rotisserie chicken", "1871 Seminole Trail", "964-1052",  "$"),
 alley_light = new Restaurant("The Alley Light", "Intimate small-plate spot above Revolutionary Soup", "108 Second St. SW", "296-5003", "$$"),
 beer_run = new Restaurant("Beer Run", "Rotating beers on tap, six-packs and wine to take away and three meals daily", "156 Carlton Rd., Suite 203", "984-2337", "$$"),
 belle = new Restaurant("Belle", "A café, sandwich shop and bakery, the Shanesy brothers’ homage to their love of food", "407 Monticello Rd", "328-8755", "$$"),
@@ -45,7 +45,6 @@ function Transportation(tName, tDescription, tAddress, tPhone) {
 
 union_station = new Transportation("Charlottesville Union Station (CVS)", "Train station that is served by Amtrak, Crescent, and Northeast Regional. Opened in 1885.", "810 W Main St", "872-7245");
 
-
 function Historical(hName, hDescription, hAddress, hPhone) {
     this.hName = hName;
     this.hDescription = hDescription;
@@ -55,4 +54,4 @@ function Historical(hName, hDescription, hAddress, hPhone) {
 
 var monticello = new Historical("Monticello", "President Jefferson's stately 1769 mansion & slave plantation, with tours, a museum, a cafe & more.", "1050 Monticello Loop", "984-9800"),
 albemarle_county_circuit_court = new Historical("Albemarle County Circuit Court", "Originally built in 1762 by William Cabell and then rebuilt in 1803.", "501 E Jefferson St.", "972-4083"),
-belmont = new Historical("Belmont", "Also known as the Ficklin Mansion.", "501 E Jefferson St.", "972-4083");
+belmont = new Historical("Belmont", "Also known as the Ficklin Mansion.", "756 Belmont Ave.", "No Number!");

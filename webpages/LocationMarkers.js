@@ -30,6 +30,10 @@ zocalo_m = L.marker([38.03100304379837, -78.48036467709792]);
 
 var restaurants = L.layerGroup([al_carbon_m, alley_light_m, beer_run_m, belle_m, birdhouse_m, bizou_m, bodos_m, broadcloth_m, cno_m, cafe_frank_m, conmole_m, crushpad_m, luce_me, fleurie_m, ivy_inn_m, lampo_m, mas_m, milan_indian_m, oakhart_social_m, pad_thai_m, peter_chang_m, petit_pois_m, public_fish_m, revolutionary_soup_m, south_central_m, sultan_kebab_m, tavola_m, ten_m, zocalo_m]);
 
+function restaurantWrite(r) {
+    document.write(r);
+}
+
 var union_station_m = L.marker([38.03149962596708, -78.49182173291983]);
 
 var transportation = L.layerGroup([union_station_m]);
@@ -41,9 +45,12 @@ albemarle_historical_society_m = L.marker([38.031795495390426, -78.4799721]);
 
 var historical = L.layerGroup([monticello_m, albemarle_county_circuit_court_m, belmont_m, albemarle_historical_society_m]);
 
-var rotunda_m = L.marker([]),
-lawn_m = L.marker([]),
-mad_bowl_m = L.marker([]),
-beta_bridge = L.marker([]),
-memorial_to_enslaved_laborers_m = L.marker([]),
-scott_stadium_m = L.marker([]);
+var rotunda_m = L.marker([38.03549644470933, -78.50340454561969]),
+lawn_m = L.marker([38.035220394620865, -78.50360557249279]),
+mad_bowl_m = L.marker([38.037680972111744, -78.50237443212666]),
+beta_bridge = L.marker([38.03953847217134, -78.50179147445529]),
+memorial_to_enslaved_laborers_m = L.marker([38.035269671187386, -78.50148517445538]),
+scott_stadium_m = L.marker([38.03110317192711, -78.51368790329134]);
+
+var uva = L.layerGroup([rotunda_m, lawn_m, mad_bowl_m, beta_bridge, memorial_to_enslaved_laborers_m, scott_stadium_m]);
+
