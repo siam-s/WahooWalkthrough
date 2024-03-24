@@ -1,0 +1,88 @@
+body {
+    background-color: #ffffff;
+    
+}
+
+p {
+    text-align: center;
+}
+
+img.home  {
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#011a4a;
+    font-size: 36px;
+    text-decoration-color:black;
+    text-decoration:underline;
+
+  }
+
+  /*About us style config */
+
+  .imgabtus {
+    max-width: 50%;
+    size:contain;
+    padding: 20px;
+    float: left;
+  }
+
+  .txtabtus {
+    font-size: 4.5vw;
+    text-align: center;
+    padding:30px;
+    overflow-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  /* all sidebar config */
+
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position:fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    left: 0;
+    top: 0;
+    background-color: #011a4a; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    border: 6px;
+    border-style: solid;
+    border-color: #f06c1c;
+  }
+
+
+  .sidenav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px 8px 20px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    text-decoration:underline;
+    display: block;
+  }
+
+  .sidenav a.bottom {
+    position: absolute;
+    bottom: 30px;
+  }
+
+
+  .sidenav a:hover {
+    color: #f06c1c;
+  }
+
+  .sidenav img {
+    padding: 8px 8px 75px 16px;
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
