@@ -3,12 +3,10 @@
 <head>
     
     <meta charset="UTF-8">
-    <title>Wahoo Walkthrough</title>
+    <title>Wahoo Walkthrough Map</title>
     <link href="/cssfiles/styling.css" type="text/css" rel="stylesheet" />
     <script src="MapScript.js" charset="utf-8" defer></script>
-    <script src="LocationData.js" charset="utf-8" defer></script>
     <script src="LocationMarkers.js" charset="utf-8" defer></script>
-
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
         crossorigin="" />
@@ -19,30 +17,14 @@
 </head>
 
 <body class="main">
-    <div id="map" style="border-color: black; border-style: dashed; position:absolute; top: 0; size:contain;"></div>
+    <div id="map" style="border-color: black; border-right-style: dashed; top: 0; size:contain;"></div>
     <div class="sidenav">
         <img src="wwlogo.png">
-        <a href="/webpages/MainPage.html">Home</a>
-       <a href="#">How it Works</a>
-        <a href="/webpages/AboutUs.html" class="bottom">About us</a> 
+        <a href="../index.html">Home</a>
+        <a href="/webpages/MapPage.html">Map</a>
+       <a href="/webpages/HowitWorks.html">How It Works</a>
+        <a href="/webpages/AboutUs.html" class="bottom">About Us</a>
     </div>
-
-    <div class="filterbox">
-        <legend class="txtabtus" style="font-size: 4vw; text-decoration: underline; text-decoration-style: double;">Filters</legend>
-        
-        <input type="checkbox" id="filter1" name="restaurants" value="restaurants">
-        <label for="filter1"> Restaurants</label><br>
-        <input type="checkbox" id="filter2" name="historical" value="historical">
-        <label for="filter2"> Historical Sites</label><br>
-        <input type="checkbox" id="filter3" name="uva" value="uva">
-        <label for="filter3"> UVA</label><br>
-        <input type="checkbox" id="filter4" name="transportation" value="transportation">
-        <label for="filter4"> Transportation</label><br>
-
-
-    </div>
-    
-    
     
 </body>
 
